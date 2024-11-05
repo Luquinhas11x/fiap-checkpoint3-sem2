@@ -33,7 +33,4 @@ public class ContatoService {
         return contatoRepository.findById(id);
     }
 
-    public List<Contato> findByNome(String nome){
-        return contatoRepository.findByNome(nome);
-    }
 }

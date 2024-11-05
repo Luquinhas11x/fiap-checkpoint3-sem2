@@ -9,10 +9,5 @@ import org.modelmapper.ModelMapper;
 @Getter
 public class ContatoRequestCreateDto {
     private String nome;
-    private static final ModelMapper modelMapper = new ModelMapper();
-
-    public Contato toModel() {
-        return modelMapper.map(this, Contato.class);
-    }
 
 }
